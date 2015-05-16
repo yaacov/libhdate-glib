@@ -1,0 +1,18 @@
+Source: libhdate-glib
+Section: unknown
+Priority: extra
+Maintainer: Yaacov Zamir <kobi.zamir@gamil.com>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, mime-support, libpopt0, file, libsigsegv2, libhdate-dev, libffi5, libmagic1, libglib2.0-dev, libpcre3-dev, pkg-config, libvala-0.16-dev, libgirepository1.0-dev, gawk, cpio
+Standards-Version: 3.9.3
+Homepage: http://code.google.com/p/libhdate-glib/
+#Vcs-Git: git://git.debian.org/collab-maint/libhdate-glib.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/libhdate-glib.git;a=summary
+
+Package: libhdate-glib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: libhdate Vala bindings
+ Gobject bindings for LibHdate. 
+ LibHdate is a small C,C++ library for Hebrew calendar, dates, holidays, 
+ and reading sequence (parasha). 
+
