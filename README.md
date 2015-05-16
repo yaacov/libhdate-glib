@@ -21,4 +21,7 @@ LibHdate Gobject bindings
 
 > python test.py
 
+## Build Debian package
+
+> debuild -i -us -uc -b
 
