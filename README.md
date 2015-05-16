@@ -4,8 +4,11 @@ LibHdate Gobject bindings
 ## Configure and build
 
 > cd libhdate-glib
+
 > autoreconf -vfi
+
 > ./configure --prefix=/usr
+
 > make
 
 ## Install
@@ -15,6 +18,7 @@ LibHdate Gobject bindings
 ## Test
 
 > cd examples
+
 > python test.py
 
 
